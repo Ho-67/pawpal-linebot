@@ -51,6 +51,10 @@
 | 傳送文字「認領養」 | 顯示多層快速選單，查詢想要的動物 |
 
 ### 🔎 圖片範例：
-<img src="./images/example_introduce.jpg" alt="example_introduce.jpg">
-<img src="./images/example_animal.jpg" alt="example_animal.jpg">
-<img src="./images/example_vet.jpg" alt="example_vet.jpg">
+<div style="display: flex; gap: 20px;">
+  <img src="./images/example_introduce.jpg" alt="Introduction image" height="400" >
+  <img src="./images/example.png" alt="Example image" height="200" >
+  <img src="./images/example_animal2.png" alt="Animal image 2" height="400" >
+  <img src="./images/example_animal.jpg" alt="Animal image 1" height="400" >
+  <img src="./images/example_vet.jpg" alt="Veterinarian image" height="400" >
+</div>
