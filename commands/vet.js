@@ -54,7 +54,7 @@ export default async (event) => {
             ? `撥打：${value.機構電話}`
             : '撥打電話'
 
-          bubble.footer.contents[1].action.uri = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(value.機構地址)}`
+          bubble.footer.contents[1].action.uri = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(value.機構名稱)}`
           bubble.footer.contents[1].action.label = 'Google地圖'
 
           return bubble
